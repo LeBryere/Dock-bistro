@@ -26,16 +26,16 @@ The inspiration for the site comes from the Vitorlás Étterem Balatonlelle.
 ### Variables
 ```css
 :root {
-	--primary-color: #c6a87d;
-	--secondary-color: #101418;
-	--dark-color: #080b0e;
-	--grey-color: #777777;
-	--white-color: #ffffff;
-	--text-color: #ffffffcc;
-	--custom-bg-color: #13181c;
-	--body-fonts: 'Josefin Sans', sans-serif;
-	--title-fonts: 'Josefin Sans', sans-serif;
-	--sub-title-fonts: 'Miniver', cursive;
+--primary-color: #c6a87d;
+--secondary-color: #101418;
+--dark-color: #080b0e;
+--grey-color: #777777;
+--white-color: #ffffff;
+--text-color: #ffffffcc;
+--custom-bg-color: #13181c;
+--body-fonts: 'Josefin Sans', sans-serif;
+--title-fonts: 'Josefin Sans', sans-serif;
+--sub-title-fonts: 'Miniver', cursive;
 }
 ```
 
