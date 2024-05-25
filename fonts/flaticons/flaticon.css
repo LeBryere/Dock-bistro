@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-nutrition{
+    content:"\F101";
+}
+.flaticon-nutrition-1{
+    content:"\F102";
+}
+.flaticon-healthy-food{
+    content:"\F103";
+}
+.flaticon-health{
+    content:"\F104";
+}
+.flaticon-nutrition-2{
+    content:"\F105";
+}
+.flaticon-nutrition-3{
+    content:"\F106";
+}
+.flaticon-salad{
+    content:"\F107";
+}
+.flaticon-medication{
+    content:"\F108";
+}
+.flaticon-nutrition-4{
+    content:"\F109";
+}
+.flaticon-protein{
+    content:"\F10A";
+}
+.flaticon-nutrition-5{
+    content:"\F10B";
+}
+.flaticon-balanced-diet{
+    content:"\F10C";
+}
+.flaticon-fruits{
+    content:"\F10D";
+}
+.flaticon-nutrition-facts-label{
+    content:"\F10E";
+}
+.flaticon-whey-protein{
+    content:"\F10F";
+}
+.flaticon-nutrition-6{
+    content:"\F110";
+}
+.flaticon-diet{
+    content:"\F111";
+}
+.flaticon-supplement{
+    content:"\F112";
+}
+.flaticon-pet-food{
+    content:"\F113";
+}
+.flaticon-apple{
+    content:"\F114";
+}
+.flaticon-vitamins{
+    content:"\F115";
+}
+.flaticon-weight-loss{
+    content:"\F116";
+}
+.flaticon-diet-1{
+    content:"\F117";
+}
+.flaticon-diet-2{
+    content:"\F118";
+}
+.flaticon-nutrition-7{
+    content:"\F119";
+}
+.flaticon-healthy-food-1{
+    content:"\F11A";
+}
+.flaticon-nutrition-8{
+    content:"\F11B";
+}
+.flaticon-nutrition-9{
+    content:"\F11C";
+}
+.flaticon-pour{
+    content:"\F11D";
+}
+.flaticon-diet-3{
+    content:"\F11E";
+}
