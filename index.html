@@ -9132,7 +9132,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 align-self-center">
-							<span class="pq-copyright">Copyright 2024 Dock Bistro All Rights Reserved.</span>
+							<span class="pq-copyright">Copyright 2024 LeBryere All Rights Reserved.</span>
 						</div>
 					</div>
 				</div>
@@ -9171,13 +9171,9 @@
 	<!--custom js-->
 	<script src="js/custom.js"></script>
 	<script>
-		/************************************************************************\
-										SVG STROKE LENGTH
-	\************************************************************************/
-		// Getting the length of the SVG line. Use svg path:nth-child() in CSS.
 		let miaText = document.getElementById("miatext");
 		let svgW = miaText.clientWidth;
-		let svgI = svgW / 800; // 190 = viewBox="..X..X.190..X"
+		let svgI = svgW / 800;
 		miaText.style.width = svgW
 
 		for (var i = 1; i <= 1; i++) {
@@ -9185,8 +9181,6 @@
 			let letterLength = letter.getTotalLength().toFixed(0);
 			letter.style.strokeDasharray = (svgI * letterLength)
 			letter.style.strokeDashoffset = (svgI * letterLength)
-
-			console.log("Letter " + i + ": " + svgI * letterLength); // not necessary
 		}
 	</script>
 </body>
