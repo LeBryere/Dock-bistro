@@ -20,6 +20,27 @@ Moz Selection
 	--title-fonts: 'Josefin Sans', sans-serif;
 	--sub-title-fonts: 'Miniver', cursive;
 }
+::-webkit-scrollbar {
+	width: 0.8em;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px hsl(0, 0%, 2%);
+}
+
+::-webkit-scrollbar-thumb {
+	background: hsl(0, 0%, 4%);
+	background: linear-gradient(90deg, hsl(0, 0%, 4%) 0%, hsl(0, 0%, 8%) 50%, hsl(0, 0%, 4%) 100%);
+	border: 1px double hsla(34, 35%, 70%, 0.4);
+	border-radius: 10px;
+	opacity: .5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: hsl(0, 0%, 12%);
+	background: linear-gradient(90deg, hsl(0, 0%, 9%) 0%, hsl(0, 0%, 19%) 50%, hsl(0, 0%, 9%) 100%);
+	outline: 1px solid var(--design-400);
+}
 
 ::-moz-selection {
 	text-shadow: none;
